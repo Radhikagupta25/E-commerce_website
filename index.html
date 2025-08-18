@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div id="iconImg">
+                <i class="fa-solid fa-bag-shopping icon"></i>
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="search" id="search" placeholder="Search">
+            </div>
+            <div class="sortItems">
+                <label for="sort">Sort:</label>
+                <select id="sort" name="sort">
+                    <option value="" selected disabled>Choose order</option>
+                    <option value="default">Default</option>
+                    <option value="priceInc">Price: Low to High</option>
+                    <option value="priceDec">Price: High to Low</option>
+                    <option value="ratingDec">Rating: High to Low</option>
+                    <option value="ratingInc">Rating: Low to High</option>
+                </select>
+            </div>
+            <div class="category">
+                <label for="category-select">Category:</label>
+                <select id="category-select" name="category">
+                    <option value="" selected disabled>Choose category</option>
+                    <option value="default">Default</option>
+                    <option value="beauty">Beauty</option>
+                    <option value="furniture">Furniture</option>
+                    <option value="fragrances">Fragrances</option>
+                    <option value="groceries">Groceries</option>
+                </select>
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping icon"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="heroSection" id="product-list"></div>
+    <div class="pagination">
+        <button class="previous">Previous</button>
+        <button class="next">Next</button>
+    </div>
+    <div class="cartSidebar">
+        <div class="cartHeader">
+            <h1>Your Cart</h1>
+            <button><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="cartItems"></div>
+        <div class="cartFooter">
+            <p>Total:</p>
+            <button>Buy Items</button>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <p>&copy 2025 Radhika Gupta</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
