@@ -17,9 +17,9 @@ A simple web application created as a task of "Google developer groups-AKGEC" th
 # Bonus Challenges:
 
 -**Pagination**:
-   -> Instead of loading the whole API data at once, divided into diff pages.
-   -> 7 products are being displayed on each page for easier navigation.
-   -> Includesnext and previous button to control navigation of the pages.
+   - Instead of loading the whole API data at once, divided into diff pages.
+   - 7 products are being displayed on each page for easier navigation.
+   - Includes next and previous button to control navigation of the pages.
 
 # Setup and running of application:
 
@@ -36,7 +36,7 @@ A simple web application created as a task of "Google developer groups-AKGEC" th
 
 3. **Open the website**  
    - Just double-click on `index.html` → It will open in your browser.  
-   - ✅ No need to install anything — works directly in the browser.
+   - No need to install anything — works directly in the browser.
 
 # Screenshot of Website:
 
