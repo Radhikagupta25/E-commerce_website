@@ -132,7 +132,7 @@ body {
 
 .cartSidebar.open {
     right: 0;
-    width: 100%;
+    width: 400px;
 }
 
 .cartItems {
