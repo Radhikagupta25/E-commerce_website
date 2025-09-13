@@ -1,6 +1,6 @@
 # Product Hunt Clone – Trending Products Board :
 
-A simple web application created as a task of "Google developer groups-AKGEC" that involves building a frontend application that mimics a "Product Hunt" style trending products board.
+A simple web application that mimics a "Product Hunt" style trending products board.
 
 # Features:
 
